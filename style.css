@@ -4,3 +4,26 @@ h1 .head{
 body{
   background-image: url(".images/reg.jpeg");
 }
+/*footer*/
+
+*{
+  margin:0;
+}
+html,body{
+  height: 100%;
+}
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -142px;
+}
+.page-wrap: after{
+  ceontent:"";
+  display:block;
+
+}
+.site-footer, .page-wrap: after{
+  height: 142px;
+}
+.site-footer{
+  background: black;
+}
