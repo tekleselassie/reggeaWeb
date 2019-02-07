@@ -28,10 +28,14 @@ body{
    position: fixed;
    left: 0;
    bottom: 0;
+<<<<<<< HEAD
    width: 100%;
 <<<<<<< HEAD
    background-color: #083f15;
 =======
+=======
+   width: 101%;
+>>>>>>> c394c6127542815f739e168eb6d913668977cf2a
    height: 5em;
    background-color: #81d4fa;
 >>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
