@@ -2,6 +2,7 @@ h1 .head{
   text-align: center;
 }
 body{
+  filter:hue-rotate(140%);
   background-image: url(".images/reg.jpeg");
 }
 #h1{
@@ -18,7 +19,7 @@ body{
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #81d4fa;
+   background-color: #083f15;
    color: white;
    text-align: center;
 }
