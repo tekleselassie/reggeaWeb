@@ -3,42 +3,18 @@ h1{
   color: white;
 }
 body{
-<<<<<<< HEAD
-  filter:hue-rotate(140%);
-  background-image: url(".images/home.jpg");
-}
-#h1{
-  height: 22em;
-  width: 40em;
+  background-image: url("images/home.jpg");
+  background-size: 100%;
 }
 
-#h2 {
-  height: 22em;
-  width: 40em;
-=======
-  background-image: url("images/home.jpg");
-<<<<<<< HEAD
-  background-size: 80%;
->>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
-=======
-  background-size: 81%;
->>>>>>> 4da366c80250bdff2b70f4daccb02445280900d2
-}
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
-<<<<<<< HEAD
    width: 100%;
-<<<<<<< HEAD
    background-color: #083f15;
-=======
-=======
    width: 101%;
->>>>>>> c394c6127542815f739e168eb6d913668977cf2a
    height: 5em;
-   background-color: #81d4fa;
->>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
    color: white;
    text-align: center;
 }
