@@ -1,0 +1,52 @@
+main {
+  padding: 100px 0;
+  width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  float: left;
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 50px;
+}
+
+#cart-container {
+  float: right;
+  width: 210px;
+  position: relative;
+}
+
+#itemCount {
+  position: absolute;
+  display: none;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.item {
+  width: 31%;
+  float: left;
+  margin: 1%;
+}
+
+i:hover {
+  cursor: pointer;
+}
