@@ -1,7 +1,12 @@
+body{
+  background-image: url("../../images/product.jpg");
+  background-size: 100%;
+}
 main {
   padding: 100px 0;
   width: 600px;
-  margin: 0 auto;
+  margin-left: 10em;
+  margin-top: auto;
 }
 
 header {
