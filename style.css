@@ -17,8 +17,12 @@ body{
   width: 40em;
 =======
   background-image: url("images/home.jpg");
+<<<<<<< HEAD
   background-size: 80%;
 >>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
+=======
+  background-size: 81%;
+>>>>>>> 4da366c80250bdff2b70f4daccb02445280900d2
 }
 .footer {
    position: fixed;
