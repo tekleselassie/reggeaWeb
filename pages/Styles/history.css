@@ -66,3 +66,14 @@ p{
   height: 22em;
   width: 40em;
 }
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #083f15;
+   width: 101%;
+   height: 5em;
+   color: white;
+   text-align: center;
+}
