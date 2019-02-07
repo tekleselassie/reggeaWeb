@@ -1,14 +1,21 @@
 body{
+<<<<<<< HEAD
   background: url("love.jpg");
   background-size: 50em;
+=======
+  background-image: url("../../images/history.jpg");
+  background-size:contain;
+>>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
 
 }
 h1{
   color: white;
 }
 p{
+  background-color: #455a64;
+  border-style:outset;
   font-family: 'Overpass', sans-serif;
-  color: black;
+  color: white;
   font-size: 1.1em;
   font-weight: bold;
   font-size-adjust: auto;
@@ -45,4 +52,21 @@ p{
 #mus{
   width: 50em;
 
+}
+#h4{
+  height: 22em;
+  width: 40em;
+}
+#h3{
+  height: 22em;
+  width: 40em;
+}
+#h1{
+  height: 22em;
+  width: 40em;
+}
+
+#h2 {
+  height: 22em;
+  width: 40em;
 }

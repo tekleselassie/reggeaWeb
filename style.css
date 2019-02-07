@@ -1,7 +1,9 @@
-h1 .head{
+h1{
   text-align: center;
+  color: white;
 }
 body{
+<<<<<<< HEAD
   filter:hue-rotate(140%);
   background-image: url(".images/reg.jpeg");
 }
@@ -13,13 +15,22 @@ body{
 #h2 {
   height: 22em;
   width: 40em;
+=======
+  background-image: url("images/home.jpg");
+  background-size: 80%;
+>>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
 }
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
+<<<<<<< HEAD
    background-color: #083f15;
+=======
+   height: 5em;
+   background-color: #81d4fa;
+>>>>>>> aabcadacd41b56caffad4a46345d7ab358bbe353
    color: white;
    text-align: center;
 }
