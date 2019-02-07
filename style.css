@@ -4,3 +4,12 @@ h1 .head{
 body{
   background-image: url(".images/reg.jpeg");
 }
+#h1{
+  height: 22em;
+  width: 40em;
+}
+
+#h2 {
+  height: 22em;
+  width: 40em;
+}
