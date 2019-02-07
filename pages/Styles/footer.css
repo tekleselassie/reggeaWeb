@@ -1,0 +1,48 @@
+body{
+  background: url("../images/bc.png");
+  background-size: 50em;
+
+}
+h1{
+  color: white;
+}
+p{
+  font-family: 'Overpass', sans-serif;
+  color: black;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-size-adjust: auto;
+  text-align: center;
+}
+.slide-wrap{
+  margin-left: 8em;
+  margin-top: 5em;
+
+}
+
+.slider {
+  width: 40em;
+  height: 30em;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: red;
+}
+.slide {
+  width: 40em;
+  flex-shrink: 0;
+  height: 100%;
+}
+.slider{
+  -webkit-scroll-snap-points-x: repeat(300px);
+     -ms-scroll-snap-points-x: repeat(300px);
+         scroll-snap-points-x: repeat(300px);
+ -webkit-scroll-snap-type: mandatory;
+     -ms-scroll-snap-type: mandatory;
+         scroll-snap-type: mandatory;
+         -webkit-overflow-scrolling: touch;
+       }
+#mus{
+  width: 50em;
+
+}
