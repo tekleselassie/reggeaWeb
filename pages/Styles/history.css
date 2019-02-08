@@ -1,0 +1,79 @@
+body{
+  background-image: url("../../images/history.jpg");
+  background-size:contain;
+
+}
+h1{
+  color: white;
+}
+p{
+  background-color: ##92a8d1;
+  border-style:outset;
+  font-family: 'Overpass', sans-serif;
+  color: red;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-size-adjust: auto;
+  text-align: center;
+}
+.slide-wrap{
+  margin:auto;
+  margin-left: 20em;
+  margin-top: 5em;
+
+}
+
+.slider {
+  width: 40em;
+  height: 30em;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  color: red;
+}
+.slide {
+  width: 40em;
+  flex-shrink: 0;
+  height: 100%;
+}
+.slider{
+  -webkit-scroll-snap-points-x: repeat(300px);
+     -ms-scroll-snap-points-x: repeat(300px);
+         scroll-snap-points-x: repeat(300px);
+ -webkit-scroll-snap-type: mandatory;
+     -ms-scroll-snap-type: mandatory;
+         scroll-snap-type: mandatory;
+         -webkit-overflow-scrolling: touch;
+       }
+#mus{
+  width: 50em;
+
+}
+#h4{
+  height: 22em;
+  width: 40em;
+}
+#h3{
+  height: 22em;
+  width: 40em;
+}
+#h1{
+  height: 22em;
+  width: 40em;
+}
+
+#h2 {
+  height: 22em;
+  width: 40em;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #083f15;
+   width: 101%;
+   height: 5em;
+   color: white;
+   text-align: center;
+}
